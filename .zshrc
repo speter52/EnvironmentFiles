@@ -86,3 +86,8 @@ source $ZSH/oh-my-zsh.sh
 alias pilogin='ssh pi@projectkeenai.com -p 56567'
 alias pbcopy='xclip -selection clipboard'
 alias pbpaste='xclip -selection clipboard -o'
+
+function chpwd() {
+    emulate -L zsh
+    ls -a
+}
