@@ -61,4 +61,6 @@ set ai
 set si
 
 au VimEnter *  NERDTree
+autocmd VimEnter * wincmd p
+
 
